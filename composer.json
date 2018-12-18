@@ -1,0 +1,17 @@
+{
+  "name": "spartakusmd/ovh-vps-snapshot",
+  "description": "OVH VPS Automated Snapshot (via OVH API)",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Marin Binzari"
+    }
+  ],
+  "require": {
+    "ext-json": "*",
+    "ovh/ovh": "^2.0",
+    "symfony/yaml": "^4.2",
+    "monolog/monolog": "^1.24"
+  }
+}
