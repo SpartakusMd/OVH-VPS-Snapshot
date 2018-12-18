@@ -60,3 +60,11 @@ Dry-run mode (simulates the query) :
 ## Crontab
 
 You can automate the snapshot creation by creating a crontab making a call to this tool.
+
+Daily:
+
+    30 3 * * * php /opt/ovh-vps-snapshot/snapshot.php >> /var/log/ovh-vps-snapshot.log
+
+Each Tuesday:
+
+    30 3 * * 2 php /opt/ovh-vps-snapshot/snapshot.php >> /var/log/ovh-vps-snapshot.log
